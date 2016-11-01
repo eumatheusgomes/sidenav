@@ -22,10 +22,14 @@
 
         if ($target.closest(self.$el.data('sidenav-toggle'))[0]) {
           self.$el.toggleClass('show');
+          $('body').toggleClass('sidenav-no-scroll');
+
           self.toggleOverlay();
 
         } else if (!$target.closest(self.$el)[0]){
           self.$el.removeClass('show');
+          $('body').removeClass('sidenav-no-scroll');
+
           self.hideOverlay();
         }
       });
@@ -71,5 +75,3 @@
     });
   };
 })(window.jQuery);
-
-

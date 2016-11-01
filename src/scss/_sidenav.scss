@@ -129,3 +129,6 @@
   width: 100%;
   z-index: $sidenav-z-index - 1
 }
+.sidenav-no-scroll {
+  overflow: hidden !important
+}
