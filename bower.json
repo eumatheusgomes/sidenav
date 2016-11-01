@@ -6,8 +6,8 @@
   ],
   "description": "A simple SCSS + jQuery sidenav component.",
   "main": [
-  	"src/scss/main.scss",
-  	"src/js/sidenav.js"
+    "src/scss/main.scss",
+    "src/js/sidenav.js"
   ],
   "keywords": [
     "sidenav",
@@ -23,7 +23,9 @@
   ],
   "devDependencies": {
     "qunit": "^2.0.1",
-    "blanket": "^1.1.7",
+    "blanket": "^1.1.7"
+  },
+  "dependencies": {
     "jquery": "^1.12.4"
   }
 }
