@@ -1,0 +1,29 @@
+{
+  "name": "sidenav",
+  "homepage": "https://github.com/eumatheusgomes/sidenav",
+  "authors": [
+    "Matheus Gomes <eu@matheusgomes.com.br> (http://matheusgomes.com.br)"
+  ],
+  "description": "A simple SCSS + jQuery sidenav component.",
+  "main": [
+  	"src/scss/main.scss",
+  	"src/js/sidenav.js"
+  ],
+  "keywords": [
+    "sidenav",
+    "sidebar",
+    "offcanvas"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "devDependencies": {
+    "qunit": "^2.0.1",
+    "blanket": "^1.1.7",
+    "jquery": "^1.12.4"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "sub": true,
+  "undef": true,
+  "unused": true,
+  "boss": true,
+  "eqnull": true,
+  "browser": true,
+  "predef": [
+    "module",
+    "test",
+    "asyncTest",
+    "expect",
+    "start",
+    "stop",
+    "ok",
+    "equal",
+    "notEqual",
+    "deepEqual",
+    "notDeepEqual",
+    "strictEqual",
+    "notStrictEqual",
+    "throws"
+  ]
+}

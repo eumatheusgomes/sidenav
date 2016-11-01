@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" type="text/css">
+  <link rel='stylesheet' href='//fonts.googleapis.com/icon?family=Material+Icons' type='text/css'>
+  <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../dist/sidenav.min.css" type="text/css">
+  <title>Sidenav</title>
+  <style type="text/css">
+  body {
+    background: #eee;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  .toggle {
+    color: #666;
+    display: block;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    width: 72px;
+  }
+  </style>
+</head>
+<body>
+  <nav class="sidenav" data-sidenav data-sidenav-toggle="#sidenav-toggle">
+    <div class="sidenav-brand">
+      BRAND
+    </div>
+
+    <div class="sidenav-header">
+      Section Header
+      <small>secondary text</small>
+    </div>
+
+    <ul class="sidenav-menu">
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle class="active">
+          <span class="sidenav-link-icon">
+            <i class="material-icons">store</i>
+          </span>
+          <span class="sidenav-link-title">Lorem ipsum</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_down</i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_up</i>
+          </span>
+        </a>  
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Dolor sit amet</a></li>
+          <li><a href="javascript:;">Consectetur adipisicing</a></li>
+          <li><a href="javascript:;">Elit</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle>
+          <span class="sidenav-link-icon">
+            <i class="material-icons">payment</i>
+          </span>
+          <span class="sidenav-link-title">Sed do eiusmod</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_down</i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_up</i>
+          </span>
+        </a>  
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Tempor incididunt</a></li>
+          <li><a href="javascript:;">Labore</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle>
+          <span class="sidenav-link-icon">
+            <i class="material-icons">shopping_cart</i>
+          </span>
+          <span class="sidenav-link-title">Dolore magna</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_down</i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_up</i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Aliqua</a></li>
+          <li><a href="javascript:;">Exercitation</a></li>
+          <li><a href="javascript:;">Minim veniam</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="sidenav-link-icon">
+            <i class="material-icons">assignment_ind</i>
+          </span>
+          <span class="sidenav-link-title">Nostrud ullamco</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="sidenav-link-icon">
+            <i class="material-icons">alarm</i>
+          </span>
+          <span class="sidenav-link-title">Commodo</span>
+        </a>
+      </li>
+    </ul>
+
+    <div class="sidenav-header">
+      Another Section Header
+    </div>
+
+    <ul class="sidenav-menu">
+      <li>
+        <a href="javascript:;" data-sidenav-dropdown-toggle>
+          <span class="sidenav-link-icon">
+            <i class="material-icons">date_range</i>
+          </span>
+          <span class="sidenav-link-title">Reprehenderit</span>
+          <span class="sidenav-dropdown-icon show" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_down</i>
+          </span>
+          <span class="sidenav-dropdown-icon" data-sidenav-dropdown-icon>
+            <i class="material-icons">arrow_drop_up</i>
+          </span>
+        </a>
+
+        <ul class="sidenav-dropdown" data-sidenav-dropdown>
+          <li><a href="javascript:;">Voluptate</a></li>
+          <li><a href="javascript:;">Excepteur</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="sidenav-link-icon">
+            <i class="material-icons">backup</i>
+          </span>
+          <span class="sidenav-link-title">Occaecat</span>
+        </a>
+      </li>
+      <li>
+        <a href="javascript:;">
+          <span class="sidenav-link-icon">
+            <i class="material-icons">settings</i>
+          </span>
+          <span class="sidenav-link-title">Deserunt</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <a href="javascript:;" class="toggle" id="sidenav-toggle">
+    <i class="material-icons">menu</i>
+  </a>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="../dist/sidenav.min.js"></script>
+  <script>$('[data-sidenav]').sidenav();</script>
+</body>
+</html>

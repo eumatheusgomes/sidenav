@@ -1,0 +1,28 @@
+$sidenav-grid:             8px;
+$sidenav-font-size:        $sidenav-grid * 2;
+$sidenav-font-weight:      400;
+$sidenav-padding:          $sidenav-grid * 2;
+$sidenav-width:            $sidenav-grid * 32;
+$sidenav-z-index:          100;
+
+$sidenav-overlay-bg:       rgba(255, 255, 255, .8);
+
+$sidenav-bg:               #212121;
+$sidenav-color:            #BDBDBD;
+$sidenav-color-active:     #FAFAFA;
+$sidenav-color-icon:       #757575;
+
+$sidenav-brand-bg:         #FF5722;
+$sidenav-brand-color:      #FAFAFA;
+$sidenav-brand-border:     #FF7043;
+
+$sidenav-header-bg:        transparent;
+$sidenav-header-color:     #757575;
+$sidenav-header-border:    #424242;
+
+$sidenav-link-bg:          transparent;
+$sidenav-link-bg-hover:    #616161;
+
+$sidenav-dropdow-bg:       #191919;
+$sidenav-dropdow-bg-hover: #616161;
+$sidenav-dropdow-border:   #424242;
