@@ -1,28 +1,32 @@
-$sidenav-grid:             8px                      !default;
-$sidenav-font-size:        $sidenav-grid * 2        !default;
-$sidenav-font-weight:      400                      !default;
-$sidenav-padding:          $sidenav-grid * 2        !default;
-$sidenav-width:            $sidenav-grid * 32       !default;
-$sidenav-z-index:          100                      !default;
+$sidenav-grid:                8px                   !default;
+$sidenav-font-size:           $sidenav-grid * 2     !default;
+$sidenav-font-weight:         400                   !default;
+$sidenav-padding:             $sidenav-grid * 2     !default;
+$sidenav-width:               $sidenav-grid * 32    !default;
+$sidenav-z-index:             100                   !default;
 
-$sidenav-overlay-bg:       rgba(255, 255, 255, .8)  !default;
+$sidenav-overlay-bg:          rgba(#fff, .8)        !default;
 
-$sidenav-bg:               #212121                  !default;
-$sidenav-color:            #BDBDBD                  !default;
-$sidenav-color-active:     #FAFAFA                  !default;
-$sidenav-color-icon:       #757575                  !default;
+$sidenav-bg:                  #212121               !default;
+$sidenav-color:               #BDBDBD               !default;
+$sidenav-color-active:        #FAFAFA               !default;
+$sidenav-color-icon:          #757575               !default;
 
-$sidenav-brand-bg:         #FF5722                  !default;
-$sidenav-brand-color:      #FAFAFA                  !default;
-$sidenav-brand-border:     #FF7043                  !default;
+$sidenav-brand-bg:            #FF5722               !default;
+$sidenav-brand-color:         #FAFAFA               !default;
+$sidenav-brand-border:        #FF7043               !default;
 
-$sidenav-header-bg:        transparent              !default;
-$sidenav-header-color:     #757575                  !default;
-$sidenav-header-border:    #424242                  !default;
+$sidenav-header-bg:           transparent           !default;
+$sidenav-header-color:        #757575               !default;
+$sidenav-header-border:       #424242               !default;
 
-$sidenav-link-bg:          transparent              !default;
-$sidenav-link-bg-hover:    #616161                  !default;
+$sidenav-link-bg:             transparent           !default;
+$sidenav-link-color:          $sidenav-color        !default;
+$sidenav-link-bg-hover:       #616161               !default;
+$sidenav-link-color-hover:    $sidenav-color        !default;
 
-$sidenav-dropdow-bg:       #191919                  !default;
-$sidenav-dropdow-bg-hover: #616161                  !default;
-$sidenav-dropdow-border:   #424242                  !default;
+$sidenav-dropdow-bg:          #191919               !default;
+$sidenav-dropdow-color:       $sidenav-color        !default;
+$sidenav-dropdow-bg-hover:    #616161               !default;
+$sidenav-dropdow-color-hover: $sidenav-color        !default;
+$sidenav-dropdow-border:      #424242               !default;

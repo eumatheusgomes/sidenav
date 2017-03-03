@@ -53,7 +53,7 @@
   }
   a {
     background: $sidenav-link-bg;
-    color: $sidenav-color;
+    color: $sidenav-link-color;
     display: block;
     line-height: $sidenav-padding * 1.5;
     padding: $sidenav-padding ($sidenav-padding - ($sidenav-padding - $sidenav-font-size) * 2) * 2;
@@ -61,6 +61,7 @@
 
     &:hover {
       background: $sidenav-link-bg-hover;
+      color: $sidenav-link-color-hover;
     }
     &.active {
       color: $sidenav-color-active;
@@ -95,10 +96,12 @@
 
   a {
     background: $sidenav-dropdow-bg;
+    color: $sidenav-dropdow-color;
     padding-left: ($sidenav-padding - ($sidenav-padding - $sidenav-font-size)) * 4.5;
 
     &:hover {
       background: $sidenav-dropdow-bg-hover;
+      color: $sidenav-dropdow-color-hover;
     }
   }
   li:first-child a {
